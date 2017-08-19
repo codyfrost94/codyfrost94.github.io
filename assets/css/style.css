@@ -1,0 +1,226 @@
+header {
+
+	background-color:#fff;
+	height:96px;
+	width:100%;
+	position:fixed;
+	top: 0;
+	left: 0;
+	box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.2);
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+ul {
+    position:relative;
+    right: 15%;
+    top:50%;
+    list-style-type:none;
+    margin: auto;
+    padding: 0px;
+    overflow:hidden;
+
+    
+}
+
+ 
+
+li a {
+    float:right;
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    padding: 16px;
+    color:#777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+
+li a:hover {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+
+.myName {
+	background-color:#4aaaa5;
+	padding:30px;
+	position: relative;
+	top:30px;
+	left: 10%;
+	color:white;
+	width:30%;
+	display:inline;
+}
+.bodyContent {
+	
+	padding:50px;
+	height:600px;
+	
+	
+	
+}
+
+.aboutHeader {
+	color:#4aaaa5;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	line-height: 1.8;
+	border-style:solid;
+	border-width: 0 0 3px 0;
+	border-color:silver;
+
+}
+
+
+
+img.jonSnow {
+	float:left;
+	width:35%;
+	display:inline;
+	padding:10px;
+}
+
+
+
+
+.bodyBackground {
+  width: 960px;
+  padding: 20px;
+  margin: 0 0 0 0;
+  
+  display:inline-block;
+  
+}
+
+div.bodyMain {
+	/*position:relative;*/
+	background-color:white;
+	width:650px;
+	margin:150px;
+	border-style:solid;
+	border-color:silver;
+	border-width: 1px
+}
+
+p {
+	
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    color:  #777777;
+    line-height:1.8;
+    
+    
+}
+
+.sideContainer {
+margin-right:300px;
+margin-top:170px;
+display:inline-block;
+width: 270px;
+height: 200px;
+float:right;
+}
+
+.sideBar {
+  
+  background: #fff;
+  border-style:solid;
+  border: 1px solid silver;
+  color:#4aaaa5;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  line-height: 1.8;
+  text-align:center;
+}
+
+.connect {
+	margin:auto;
+	width:80%;
+}
+
+h2.connectHeader {
+
+	border-style:solid;
+	border-width: 0 0 3px 0;
+	border-color:silver;
+}
+
+img.icon {
+	width:50px;
+	height:50px;
+	margin:8px;
+}
+
+
+body {
+	background-color:#D6D4D4;
+}
+
+
+footer {
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	text-align: center;
+	background-color: #666666;
+	color:silver;
+	padding:35px;
+	border-style:solid;
+	border-width:10px 0 0 0;
+	border-color:#4aaaa5;
+
+	
+
+
+}
+
+.imageWrapper {
+	position:relative;
+	display:inline-block;
+	width:250px;
+}
+
+.portfolioImage {
+	
+	position:relative;
+	padding:10px;
+}
+
+h2.imageCaption {
+
+
+   position: absolute; 
+   top: 50%; 
+   left: 10px; 
+   width: 220px; 
+   z-index:0;
+}
+
+h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: #4aaaa5; /* fallback color */
+   width:220px;
+   padding: 10px; 
+}
+
+.form {
+	display:inline-block;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    color:  #777777;
+    line-height:1;
+    margin:0;
+    padding:10px 0 10px 0 ;
+}
+
+.button {
+	background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+
